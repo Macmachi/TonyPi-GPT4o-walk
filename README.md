@@ -8,7 +8,7 @@ TonyPi GPT4o Walk is an innovative project aimed at developing a humanoid robot 
 The robot uses a camera to capture images of its surroundings. These images are then analyzed to understand the environment and detect any obstacles or pathways.
 
 ### 2. **Decision Making**
-Based on the visual input, the robot uses the GPT model to make decisions about its movements. The model is trained to prioritize moving forward if the path is clear, or to decide whether to turn left or right based on the presence of obstacles.
+Based on the visual input, the robot uses the GPT4o model to make decisions about its movements. The model is trained to prioritize moving forward if the path is clear, or to decide whether to turn left or right based on the presence of obstacles.
 
 ### 3. **Text-to-Speech Conversion**
 The project includes a text-to-speech feature that allows the robot to communicate its decisions. This is achieved using the OpenAI API to convert text instructions into speech, which is then played through a speaker.
@@ -22,7 +22,7 @@ The robot's servo configuration is loaded from a YAML file, and it includes rout
 ## Technical Details
 
 ### Model Used
-The project utilizes the GPT-4 model from OpenAI. This model is employed for both generating movement decisions based on visual input and for converting textual instructions into speech.
+The project utilizes the GPT-4o model from OpenAI. This model is employed for both generating movement decisions based on visual input and for converting textual instructions into speech.
 
 ### Hardware Components
 - **Camera**: Captures images of the environment.
