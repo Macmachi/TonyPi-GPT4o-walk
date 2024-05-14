@@ -2,6 +2,8 @@
 
 TonyPi GPT4o Walk is an innovative project aimed at developing a humanoid robot that can understand its environment through the use of advanced vision capabilities powered by GPT (Generative Pre-trained Transformer) and make decisions regarding its movements. The robot leverages a combination of computer vision, machine learning, and robotics to navigate its surroundings autonomously.
 
+[Watch a brief video about the concept of the project](https://drive.google.com/file/d/1_miR9EpkI8b69R-CJIReAZYCRZGvL1_f/view?usp=sharing)
+
 ## Key Features
 
 ### 1. **Environmental Understanding**
