@@ -1,4 +1,4 @@
-# Version: 1.0.0
+# Version: 1.0.1
 # Author: Arnaud Ricci
 # Project TonyPi GPT4o Walk: A humanoid robot that understands its environment through GPT vision and makes decisions for its movement.
 
@@ -115,7 +115,7 @@ def reset():
 
 # Initializes the gpt vision walking application.
 def init():
-    print("Initializing gpt vision walking")
+    print("Initializing tonypi gpt4o walking")
     load_config()
     reset()
 
@@ -123,14 +123,14 @@ def init():
 def start():
     global __isRunning
     __isRunning = True
-    print("Starts gpt vision walking")
+    print("Starts tonypi gpt4o walking")
 
 # Stops the gpt vision walking application.
 def stop():
     global __isRunning
     __isRunning = False
     reset()
-    print("Stops gpt vision walking")
+    print("Stops tonypi gpt4o walking")
       
 # Main Face Tracking Function
 def run(img):
@@ -146,6 +146,7 @@ def run(img):
         # Capture an image using the camera
         ret, img = my_camera.read()
         if ret:
+            
             # Créer le dossier "images_gptvision" s'il n'existe pas
             if not os.path.exists("images_gptvision"):
                 os.makedirs("images_gptvision")
